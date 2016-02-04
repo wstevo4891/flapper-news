@@ -16,6 +16,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '~> 3.4.0'
 
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise"
+end
+
 gem 'angular-rails-templates'
 gem 'sprockets', '2.12.3'
 gem 'responders', '~> 2.0'
